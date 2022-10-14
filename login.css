@@ -1,0 +1,78 @@
+body{
+    background: #7F00FF; 
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  
+  background: linear-gradient(to right, #E100FF, #7F00FF); 
+  
+  }
+  body:hover{
+    background: green; 
+    background: -webkit-linear-gradient(to right, whitesmoke, red);  
+    background: linear-gradient(to right, #E100FF,#FFCCCB); 
+   
+  }
+  label{
+    color:white;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: bolder;
+    font-style: oblique;
+    background: border-box;
+    background-origin: padding-box;
+  }
+  label:hover{
+    color: black;
+  }
+  input{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background: border-box;
+    font-size: 20px;
+    border-width: 3px;
+    border-style:groove;
+  }
+  input:hover{
+    background-color: whitesmoke;
+  }
+  button{
+    font-family: 'Montserrat';
+    background: rgb(194, 71, 194); 
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    width: 150px;
+    border-radius: 2rem;
+    color: aquamarine;
+    border-width: 7px;
+  }
+  button:hover{
+    border-color: azure;
+    background-color: burlywood;
+    color: #E100FF;
+  }
+  .form-rounded {
+    border-radius: 2rem;
+    width: 300px;
+    padding: 15px;
+  }
+  h1{
+    background: transparent;
+    color: hsl(12deg 36% 40% / 90%);
+    font-style: italic;
+    font-family: 'Pacifico';
+    font-size: 50px;
+  }
+  h1:hover{
+    color:aquamarine;
+  }
+  .welcome{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 20px -16px 0px black;
+
+  }
+  .welcome:hover{
+    color: black;
+    text-shadow: 20px -16px 0px whitesmoke;
+  }

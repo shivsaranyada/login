@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-sm-flex justify-content-center">
+        <h1>Hi there🎁😉</h1>
+        <br><br>
+        <p class="welcome">Please login to your account</p>
+        <div id = "alert_placeholder"></div>
+    <form class="form-horizontal" >
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="first">First Name </label>
+          <div class="col-sm-10">
+            <input type="text"  class="form-control form-rounded" id="first" placeholder="Enter First Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="last">Last Name </label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control form-rounded" id="last" placeholder="Enter Last Name">
+          </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email </label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control form-rounded" id="mail" placeholder="Enter Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Password </label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control form-rounded" id="pass" placeholder="Enter Password">
+            </div>
+          </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" id="clickme" class="btn btn-lg" onclick="validateFirst();validateLast();validateEmail();validatePassword();all_ok();">Login</button>
+          </div>
+        </div>
+      </form>
+      </div>
+      </div>
+</body>
+</html>
